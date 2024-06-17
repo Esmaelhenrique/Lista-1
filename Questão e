@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main ()
+{
+    float V,T,TEMP,P;
+    printf("digite a taxa:");
+    scanf("%f",&T);
+    printf("digite o tempo:");
+    scanf("%f",&TEMP);
+    printf("digite do valor:");
+    scanf("%f",&V);
+    P=V+(V*(T/100)*TEMP);
+    printf ("o valor da prestaçao em atraso e:%f", P);
+}
