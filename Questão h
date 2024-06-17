@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main ()
+{
+    float C,L,A,V;
+    printf("digite do comprimento:");
+    scanf("%f",&C);
+    printf("digite a largura:");
+    scanf("%f",&L);
+    printf("digite a altura");
+    scanf("%f",&A);
+    V=L*A*C;
+    printf ("o volume da caixa retangular e:%.2f", V);
+}
