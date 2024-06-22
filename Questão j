@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main()
+{
+     int A,B,C;
+     printf ("digite um numero para A: ");
+     scanf ("%d", &A);
+     printf ("digite um numero para B: ");
+     scanf ("%d", &B);
+     C = (A-B)*(A-B);
+     printf ("o quadrado da diferença de A em relacao a B e: %d", C);
+}
