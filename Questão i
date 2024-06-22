@@ -1,0 +1,8 @@
+#include<stdio.h>
+void main ()
+{
+    int A;
+    printf ("digite um numero inteiro:");
+    scanf ("%d", &A);
+    printf ("o quadrado desse numero e: %d", A*A);
+}
