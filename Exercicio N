@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+
+{
+    int A,B,C, resultado;
+    printf ("digite um numero para a:");
+    scanf ("%d", &A);
+    printf ("digite um numero para b:");
+    scanf ("%d", &B);
+    printf ("digite um numero para c:");
+    scanf ("%d", &C);
+    resultado = (A+B+C)*(A+B+C);
+    printf ("o resultado final das adicoes dos tres quadrados e:%d", resultado);
+}
