@@ -1,0 +1,33 @@
+#include<stdio.h>
+void main ()
+{
+    int A, B, C, D, um, dois, tres, quatro, cinco, seis, sete, oito, nove, dez, onze, doze;
+    printf ("digite um numero para A:");
+    scanf ("%d", &A);
+    printf ("digite um numero para B:");
+    scanf ("%d", &B);
+    printf ("digite um numero para C:");
+    scanf ("%d", &C);
+    printf ("digite um numero para D:");
+    scanf ("%d", &D);
+
+    um=A+B;
+    dois=A*B;
+    tres=A+C;
+    quatro=A*C;
+    cinco=A+D;
+    seis=A*D;
+    sete=B+C;
+    oito=B*C;
+    nove=B+D;
+    dez=B*D;
+    onze=C+D;
+    doze=C*D;
+
+    printf ("a+b=%d e a*b=%d    ", um, dois);
+    printf ("a+c=%d e a*c=%d    ", tres, quatro);
+    printf ("a+d=%d e a*d=%d    ", cinco, seis);
+    printf ("b+c=%d e b*c=%d    ", sete, oito);
+    printf ("b+d=%d e b*d=%d    ", nove, dez);
+    printf ("c+d=%d e c*d=%d    ", onze, doze);
+}
